@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 50%;
+    height: 50%;
+    margin: auto  35%;
+}
+
+form{
+    width: 100%;
+}
+
+#login{
+ padding-top:80px ;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 50px;
+ font-weight: bold;
+}
+#welcome-msg{
+ padding-top:20px;
+ 
+}
+
+.name{
+    line-height: 60px;
+    font-size: 25px;   
+}
+
+#txt-name{
+    margin-top: -17px;
+    width:320px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: large;
+
+}
+
+.Password{
+    line-height: 60px;
+    font-size: 25px;   
+}
+#txt-password{
+    margin-top: -17px;
+    width:320px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: large;
+
+}
+
+.checkbox{
+    line-height: 60px;
+    font-size: 15px;
+}
+#fgt-pass{
+    margin-left: 110px;
+    
+}
+
+#btn{
+    width:320px;
+    height: 40px;
+    font-weight: bold;
+    background-color: rgb(208, 0, 255);
+    border-radius: 8px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.signUp{
+    line-height: 60px;
+    font-size: 15px;
+    padding-top: 15px;
+
+}
