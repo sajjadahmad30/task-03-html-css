@@ -5,9 +5,9 @@
 }
 .main{
     width: 50%;
-    height: 100vh;
-    background: url(/image/images.jpeg);
-    /* float: left; */
+    height: 100%;
+    background: url(images.jpeg);
+    float: left;
     position:fixed;
 }
 .main h1{
@@ -21,7 +21,7 @@
     
 }
 .container{
-   padding-left:160px;
+   padding-left:180px;
    float:right;
    height: 100vh;
    
