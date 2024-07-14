@@ -11,7 +11,7 @@
 .container1{
     width: 50%;
     height: 100vh;
-    background:url(/image/images.jpeg);
+    background:linear-gradient(155deg,rgb(171, 75, 6),red,blue);
     display: flex;
 }
 .container1 h1{
@@ -24,7 +24,7 @@
     height: 100vh;
     padding-left:150px ;
     padding-top:30px ;
-    background-color: red;
+    /* background-color: red; */
    
 }
 #welcome-msg{
