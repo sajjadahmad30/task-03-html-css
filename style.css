@@ -8,8 +8,8 @@
     height: 100vh;
     display: flex;
 }
-.container1{
-    width: 50%;
+.container1{    
+    width: 50vw;
     height: 100vh;
     background:linear-gradient(155deg,rgb(171, 75, 6),red,blue);
     display: flex;
@@ -22,7 +22,7 @@
 .container{
     width: 50%;
     height: 100vh;
-    padding-left:150px ;
+    padding-left:100px ;
     padding-top:30px ;
     /* background-color: red; */
    
@@ -85,173 +85,261 @@
 
 }
 
-
-@media only screen and (width <= 970px){
-    .container1{
+@media only screen and (min-width:768px) and (max-width:834px) {
+    .main-container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+    }
+    .container1{    
         width: 50%;
         height: 100vh;
-        background:url(/images.jpeg);
+        background:linear-gradient(155deg,rgb(171, 75, 6),red,blue);
         display: flex;
     }
     .container1 h1{
-        color: white;
-        text-align: center;
-        padding-top:25% ;
-        font-size: 40px;
+       color: white;
+        margin: auto;
     }
-   
-    .container1 h1{
-        color: white;
-        text-align: center;
-        padding-top:25% ;
-        font-size: 40px;
-    }
-   
+    
     .container{
         width: 50%;
         height: 100vh;
-        padding-left:85px ;
-        padding-top:25px ;
+        padding-left:50px ;
+        padding-top:15px ;
+        /* background-color: red; */
        
-    }
-    #welcome-msg{
-        font-size: 21px;
-        
     }
     #welcome-msg{
         font-size: 12px;
         
     }
     
-    
     .name{
-        line-height: 40px;
-        font-size: 22px;   
+        line-height: 35px;
+        font-size: 12px;   
     }
     
     #txt-name{
         margin-top: -10px;
-        width:170px;
-        height: 30px;
-        border-radius: 6px;
-        font-size: small;
-    
-    }
-    
-    .Password{
-        line-height: 40px;
-        font-size: 22px;   
-    }
-    #txt-password{
-        margin-top: -10px;
-        width:170px;
-        height: 30px;
-        border-radius: 6px;
-        font-size: small;
-    
-    }
-    
-    .checkbox{
-        line-height: 40px;
-        font-size: 10px;
-    }
-    #fgt-pass{
-        margin-left: 65px;
-        
-    }
-    
-    #btn{
-        width:170px;
-        height: 30px;
-        font-weight: bold;
-        background-color: rgb(208, 0, 255);
-        border-radius: 6px;
-        font-size: small;
-        font-weight: bold;
-    }
-    
-    .signUp{
-        line-height: 40px;
-        font-size: 22px;
-        padding-top: 10px;
-    
-    }
-    
-    
-}
-
-@media only screen and(width <837px){
-    .main-container{
-        display: block;
-    }
-    .container1{
-        width: 50%;
-        height: 100vh;
-        background:url(/images.jpeg);
-    }
-    .container1 h1{
-       color: white;
-       justify-content: center;
-       align-items: center;
-    }
-    .container{
-        width: 50%;
-        height: 100vh;
-       
-    }
-    
-    
-    .name{
-        line-height: 60px;
-        font-size: 25px;   
-    }
-    
-    #txt-name{
-        margin-top: -17px;
-        width:320px;
-        height: 40px;
-        border-radius: 8px;
+        width:260px;
+        height: 20px;
+        border-radius: 5px;
         font-size: large;
     
     }
     
     .Password{
-        line-height: 60px;
-        font-size: 25px;   
+        line-height: 35px;
+        font-size: 13px;   
     }
     #txt-password{
-        margin-top: -17px;
-        width:320px;
-        height: 40px;
-        border-radius: 8px;
+        margin-top: -10px;
+        width:260px;
+        height: 20px;
+        border-radius: 5px;
         font-size: large;
     
     }
     
     .checkbox{
-        line-height: 60px;
-        font-size: 15px;
+        line-height: 35px;
+        font-size: 8px;
     }
     #fgt-pass{
-        margin-left: 110px;
+        margin-left: 70px;
         
     }
     
     #btn{
-        width:320px;
-        height: 40px;
+        width:270px;
+        height:20px;
         font-weight: bold;
         background-color: rgb(208, 0, 255);
-        border-radius: 8px;
+        border-radius: 5px;
         font-size: large;
         font-weight: bolder;
     }
     
     .signUp{
-        line-height: 60px;
-        font-size: 15px;
+        line-height: 35px;
+        font-size: 8px;
+        padding-top: 8px;
+    
+    }
+     
+    
+}
+@media only screen and  (min-width: 580px) and (max-width:768px){
+    
+
+    .main-container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+    }
+    .container1{    
+        width: 50%;
+        height: 100vh;
+        background:linear-gradient(155deg,rgb(171, 75, 6),red,blue);
+        display: flex;
+    }
+    .container1 h1{
+       color: white;
+        margin: auto;
+    }
+    
+    .container{
+        width: 50%;
+        height: 100vh;
+        padding-left:50px ;
+        padding-top:20px ;
+        /* background-color: red; */
+       
+    }
+    #welcome-msg{
+        font-size: 9px;
+        
+    }
+    
+    .name{
+        line-height: 40px;
+        font-size: 15px;   
+    }
+    
+    #txt-name{
+        margin-top: -10px;
+        width:270px;
+        height: 20px;
+        border-radius: 6px;
+        font-size: small;
+    
+    }
+    
+    .Password{
+        line-height: 40px;
+        font-size: 15px;   
+    }
+    #txt-password{
+        margin-top: -13px;
+        width:270px;
+        height: 20px;
+        border-radius: 6px;
+        font-size: small;
+    
+    }
+    
+    .checkbox{
+        line-height: 40px;
+        font-size: 11px;
+    }
+    #fgt-pass{
+        margin-left: 80px;
+        
+    }
+    
+    #btn{
+        width:270px;
+        height: 25px;
+        font-weight: bold;
+        background-color: rgb(208, 0, 255);
+        border-radius: 6px;
+        font-size: large;
+        font-weight: bold;
+    }
+    
+    .signUp{
+        line-height: 40px;
+        font-size: 10px;
+        padding-top: 10px;
+    
+    }
     
     }
     
     
+
+@media only screen and (max-width: 580px) {
+    .main-container{
+        width: 100%;
+        height: 100vh;
+        display: block;
+    }
+    .container1{    
+        width: 100%;
+        height: 100vh;
+        background:linear-gradient(155deg,rgb(171, 75, 6),red,blue);
+        display: block;
+    }
+    .container1 h1{
+       color: white;
+        margin: auto;
+    }
+    
+    .container{
+        width: 100%;
+        height: 100vh;
+        padding-left:140px ;
+        padding-top:20px ;
+        /* background-color: red; */
+       
+    }
+    #welcome-msg{
+        font-size: 12px;
+        
+    }
+    
+    .name{
+        line-height: 50px;
+        font-size: 25px;   
+    }
+    
+    #txt-name{
+        margin-top: -19px;
+        width:200px;
+        height: 30px;
+        border-radius: 6px;
+        font-size: large;
+    
+    }
+    
+    .Password{
+        line-height: 30px;
+        font-size: 20px;   
+    }
+    #txt-password{
+        margin-top: -19px;
+        width:200px;
+        height:30px;
+        border-radius: 7px;
+        font-size: large;
+    
+    }
+    
+    .checkbox{
+        line-height: 30px;
+        font-size: 9px;
+    }
+    #fgt-pass{
+        margin-left: 70px;
+        
+    }
+    
+    #btn{
+        width:150px;
+        height: 30px;
+        font-weight: bold;
+        background-color: rgb(208, 0, 255);
+        border-radius: 4px;
+        font-size: large;
+        font-weight: bold;
+    }
+    
+    .signUp{
+        line-height: 20px;
+        font-size: 13px;
+        padding-top: 12px;
+    
+    }   
 }
+
